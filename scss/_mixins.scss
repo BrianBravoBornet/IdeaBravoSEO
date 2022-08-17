@@ -1,0 +1,16 @@
+@mixin tipografia {
+    
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: greenyellow;
+    background-color: gray;
+    font-size: x-large;
+}
+
+@mixin bordes {
+    border-color: greenyellow;
+    border-style: groove;
+    border-width: 5px;
+    border-radius: 10px;
+}

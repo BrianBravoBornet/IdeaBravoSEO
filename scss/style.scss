@@ -1,0 +1,91 @@
+@import "variables";
+@import "mixins";
+ 
+header {
+    text-align:center ;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: radial-gradient(grey, black);
+    color: greenyellow;  
+}
+
+.navbar {
+    @include tipografia;
+    font-weight: map-get($font-weights, small);
+  
+        .navbar-brand {
+            @extend .navbar;
+            @include bordes;
+            font-size: xx-large;
+        }
+} 
+
+.btn {
+    background-color: greenyellow;
+    color: gray;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.promos {
+    text-align: center;
+        h2 {
+            @include tipografia;
+            @include bordes;
+            font-weight: map-get($font-weights, small);
+            font-size: xx-large;
+        }
+}
+
+#cartas {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: map-get($font-weights, medium);
+}
+
+footer{
+   background-image: radial-gradient(gray,black);
+   text-align: center;
+   font-size: x-large;
+   justify-content: center;
+        .container__footer{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:center;
+            text-align: center;
+        }
+    }
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+            .logo img{
+                 width: 150px;
+            }
+        }
+
+.box__footer .nosotros{
+    @include bordes;
+    @include tipografia; 
+}
+
+.box__footer .redes{
+    @include bordes;
+    @include tipografia;
+}
+            
+.box__footer a{
+    margin-top: 10px;
+    color: greenyellow;
+    font-weight: map-get($font-weights, bold);
+            &:hover{
+                 opacity: 0.3;
+            }
+        }
+                                                              
+form {
+    @include tipografia;
+    font-weight: map-get($font-weights, small);
+    text-align: center;
+}
+

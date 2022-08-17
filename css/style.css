@@ -1,0 +1,124 @@
+header {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-image: radial-gradient(grey, black);
+  color: greenyellow;
+}
+
+.navbar, .navbar .navbar-brand {
+  justify-content: center;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: greenyellow;
+  background-color: gray;
+  font-size: x-large;
+  font-weight: 400;
+}
+.navbar .navbar-brand {
+  border-color: greenyellow;
+  border-style: groove;
+  border-width: 5px;
+  border-radius: 10px;
+  font-size: xx-large;
+}
+
+.btn {
+  background-color: greenyellow;
+  color: gray;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.promos {
+  text-align: center;
+}
+.promos h2 {
+  justify-content: center;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: greenyellow;
+  background-color: gray;
+  font-size: x-large;
+  border-color: greenyellow;
+  border-style: groove;
+  border-width: 5px;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: xx-large;
+}
+
+#cartas {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+footer {
+  background-image: radial-gradient(gray, black);
+  text-align: center;
+  font-size: x-large;
+  justify-content: center;
+}
+footer .container__footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.box__footer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.box__footer .logo img {
+  width: 150px;
+}
+
+.box__footer .nosotros {
+  border-color: greenyellow;
+  border-style: groove;
+  border-width: 5px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: greenyellow;
+  background-color: gray;
+  font-size: x-large;
+}
+
+.box__footer .redes {
+  border-color: greenyellow;
+  border-style: groove;
+  border-width: 5px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: greenyellow;
+  background-color: gray;
+  font-size: x-large;
+}
+
+.box__footer a {
+  margin-top: 10px;
+  color: greenyellow;
+  font-weight: 800;
+}
+.box__footer a:hover {
+  opacity: 0.3;
+}
+
+form {
+  justify-content: center;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: greenyellow;
+  background-color: gray;
+  font-size: x-large;
+  font-weight: 400;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
